@@ -18,13 +18,13 @@ public class LaunchBrowserTest {
 
 	public void launchFirfoxBrowser() {
 		
-
-		System.setProperty("webdriver.gecko.driver",
-				"C:\\Users\\HP\\eclipse-workspace\\TestSeleniumProjectSwetha\\drivers\\geckodriver.exe");
-
-		WebDriver driver1 = new FirefoxDriver();
-
-		driver1.get("https://www.amazon.in/");
+		System.out.println(System.getProperty("user.dir"));
+//		System.setProperty("webdriver.gecko.driver",
+//				"C:\\Users\\HP\\eclipse-workspace\\TestSeleniumProjectSwetha\\drivers\\geckodriver.exe");
+//
+//		WebDriver driver1 = new FirefoxDriver();
+//
+//		driver1.get("https://www.amazon.in/");
 	}
 
 	public void launchIEBrowser() {
